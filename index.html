@@ -13,32 +13,32 @@
 
 <body>
     <!-- header -->
-
-    <header class="blue-grey">
-        <div class="container d-flex align-items-center justify-content-between">
+    <header class="d-flex justify-content-between align-items-center blue-grey">
+        <div class="container d-flex justify-content-between align-items-center">
             <h1 class="text-uppercase text-white">Start bootstrap</h1>
             <button>Hamburger Menu</button>
         </div>
     </header>
-
     <!-- /header -->
 
     <!-- contenuto principale della pagina -->
     <main>
         <!-- jumbotron -->
-        <section id="jumbotron" class="d-flex justify-content-center align-items-center green">
+        <section id="jumbotron" class="container-fluid d-flex justify-content-center align-items-center green">
             <h1>Start Bootstrap</h1>
         </section>
         <!-- /jumbotron -->
 
         <!-- portfolio -->
-        <section id="portfolio" class="container d-flex justify-content-center align-items-center">
-            <h1>Portfolio</h1>
+        <section id="portfolio">
+            <div class="container d-flex justify-content-center align-items-center">
+                <h1>Portfolio</h1>
+            </div>
         </section>
         <!-- /portfolio -->
 
         <!-- about -->
-        <section id="about" class="container d-flex justify-content-center align-items-center green">
+        <section id="about" class="container-fluid d-flex justify-content-center align-items-center green">
             <div class="wrapper-container d-flex justify-content-center align-items-center">
                 <h1>About</h1>
             </div>
@@ -46,8 +46,10 @@
         <!-- /about -->
 
         <!-- contact me -->
-        <section id="contact-me" class="container d-flex justify-content-center align-items-center">
-            <h1>Contact me</h1>
+        <section id="contact-me">
+            <div class="container d-flex justify-content-center align-items-center">
+                <h1>Contact me</h1>
+            </div>
         </section>
         <!-- /contact me -->
     </main>
@@ -55,11 +57,16 @@
 
     <!-- footer -->
     <footer>
-        <div id="top-footer" class="container d-flex justify-content-center align-items-center light-grey">
-            top footer
+        <div id="top-footer" class="light-grey">
+            <div class="container d-flex justify-content-center align-items-center">
+                top footer
+            </div>
+            
         </div>
-        <div id="bottom-footer" class="container d-flex justify-content-center align-items-center blue-grey">
-            bottom-footer
+        <div id="bottom-footer" class="blue-grey">
+            <div class="container d-flex justify-content-center align-items-center ">
+                bottom-footer
+            </div>
         </div>
     </footer>
     <!-- /footer -->

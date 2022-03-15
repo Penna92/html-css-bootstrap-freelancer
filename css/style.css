@@ -7,7 +7,17 @@ header {
   width: 60%;
   background-color: blue;
 }
-
+.star-decoration {
+  width: 60%;
+}
+.decoration-row {
+  width: 30%;
+  border-top: 3px solid white;
+}
+#jumbo-image {
+  width: 200px;
+  height: 200px;
+}
 /* COLORS */
 .blue-grey {
   background-color: rgb(44, 62, 80);

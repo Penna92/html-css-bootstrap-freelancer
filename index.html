@@ -80,17 +80,59 @@
         <!-- /portfolio -->
 
         <!-- about -->
-        <section id="about" class="container-fluid d-flex justify-content-center align-items-center green text-white">
-            <div class="wrapper-container d-flex justify-content-center align-items-center">
-                <h1>About</h1>
+        <section id="about" class="container-fluid d-flex justify-content-center  align-items-center green text-white">
+            <div class="wrapper-container d-flex justify-content-center flex-column align-items-center">
+                <h2 class="text-uppercase text-center mt-3">About</h2>
+                <div class="star-decoration d-flex align-items-center gap-2 justify-content-center my-3">
+                    <div class="decoration-row"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star fs-3 text"></i>
+                    </div>
+                    <div class="decoration-row"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 mb-3">
+                        <span class="text-center">Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                            download includes the complete source files including HTML, CSS, and JavaScript as well as
+                            optional LESS stylesheets for easy customization. </span>
+                    </div>
+                    <div class="col-xs-12 col-md-6 mb-3">
+                        <span class="text-center">Whether you're a student looking to showcase your work, a professional
+                            looking to attract clients, or a graphic artist looking to share your projects, this
+                            template is the perfect starting point!</span>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /about -->
 
         <!-- contact me -->
-        <section id="contact-me">
-            <div class="container d-flex justify-content-center align-items-center">
-                <h1>Contact me</h1>
+        <section id="contact-me" class="container-fluid d-flex justify-content-center  align-items-center">
+            <div class="wrapper-container d-flex justify-content-center flex-column align-items-center">
+                <h2 class="text-uppercase text-center mt-3">Contact me</h2>
+                <div class="star-decoration d-flex align-items-center gap-2 justify-content-center my-3">
+                    <div class="decoration-row"></div>
+                    <div class="star">
+                        <i class="fa-solid fa-star fs-3 text"></i>
+                    </div>
+                    <div class="decoration-row"></div>
+                </div>
+                <form class="mb-3">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary green">Send</button>
+                </form>
             </div>
         </section>
         <!-- /contact me -->
@@ -101,13 +143,32 @@
     <footer>
         <div id="top-footer" class="light-grey text-white">
             <div class="container d-flex justify-content-center align-items-center">
-                top footer
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 mb-3">
+                        <h3 class="text-uppercase text-center mt-3">Location</h3>
+                        <h5 class="text-center">2215 John Daniel Drive Clark, MO 54243</h5>
+                    </div>
+                    <div class="col-xs-12 col-md-4 mb-3">
+                        <h3 class="text-uppercase text-center mt-3">Around the web</h3>
+                        <div class="social-icons d-flex justify-content-center align-items-center gap-2">
+                            <i class="fa-brands fa-facebook-f border border-3 rounded-circle p-2"></i>
+                            <i class="fa-brands fa-google-plus-g border border-3 rounded-circle p-2"></i>
+                            <i class="fa-brands fa-twitter border border-3 rounded-circle p-2"></i>
+                            <i class="fa-brands fa-linkedin-in border border-3 rounded-circle p-2"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 mb-3">
+                        <h3 class="text-uppercase text-center mt-3">About freelancer</h3>
+                        <h5 class="text-center">Freelance is a free to use, open source Bootstrap theme created by
+                            <a href="#" class="text-green text-decoration-none">Start Bootstrap</a>
+                        </h5>
+                    </div>
+                </div>
             </div>
-
         </div>
-        <div id="bottom-footer" class="blue-grey text-white">
-            <div class="container d-flex justify-content-center align-items-center ">
-                bottom-footer
+        <div id="bottom-footer" class="blue-grey text-white d-flex justify-content-center align-items-center">
+            <div class="container d-flex justify-content-center align-items-center">
+                <span>Copyright &#169; Your Website 2019</span>
             </div>
         </div>
     </footer>

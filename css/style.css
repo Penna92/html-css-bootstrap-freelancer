@@ -12,7 +12,7 @@ header {
 }
 .decoration-row {
   width: 30%;
-  border-top: 3px solid white;
+  border-top: 3px solid;
 }
 #jumbo-image {
   width: 200px;
